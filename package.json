@@ -1,0 +1,26 @@
+{
+  "name": "daily-fuel-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build-www.js",
+    "sync": "node build-www.js && npx cap sync",
+    "android": "node build-www.js && npx cap sync android && cd android && gradlew assembleDebug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3",
+    "@capacitor/health-fitness": "^1.0.2",
+    "@capacitor/ios": "^8.5.3"
+  },
+  "private": true,
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5"
+  }
+}

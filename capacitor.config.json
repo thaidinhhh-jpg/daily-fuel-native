@@ -1,0 +1,9 @@
+{
+  "appId": "com.dailyfuel.app",
+  "appName": "Daily Fuel",
+  "webDir": "www",
+  "android": { "allowMixedContent": false },
+  "ios": { "contentInset": "automatic" },
+  "server": { "androidScheme": "https" },
+  "plugins": { "HealthFitness": {} }
+}

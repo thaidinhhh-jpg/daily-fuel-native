@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "STEPS": "Read",
+    "WEIGHT": "ReadWrite",
+    "CALORIES_BURNED": "Read"
+  },
+  "disableBackgroundJobs": true,
+  "privacyPolicyUrl": "https://thaidinhhh-jpg.github.io/daily-fuel/privacy.html"
+}
