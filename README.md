@@ -8,6 +8,9 @@ This folder wraps the Daily Fuel web app (`../calorie-tracker`) in a native shel
 - **Reminders that arrive with the app closed** (`@capacitor/local-notifications`): meal times,
   water, weigh-in and "fast complete", scheduled on the phone from Settings → Reminders. Tap
   **Allow notifications** there once; on Android 13+ the system asks for permission.
+- **A back button that stays in the app** (`@capacitor/app`): Android's back button or gesture
+  closes the open sheet, leaves the settings section or recipe results, returns to the previous
+  tab, and only exits from the Today tab with nothing open.
 - A real app icon, splash screen and store-ready project.
 
 The web app is copied into `www/` by `node build-www.js` on every sync, so the native apps
