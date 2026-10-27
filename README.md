@@ -5,6 +5,9 @@ This folder wraps the Daily Fuel web app (`../calorie-tracker`) in a native shel
 
 - **Steps, weight and active energy from Apple Health / Android Health Connect**
   (`@capacitor/health-fitness`), synced when the app opens, with weights you log written back.
+- **Reminders that arrive with the app closed** (`@capacitor/local-notifications`): meal times,
+  water, weigh-in and "fast complete", scheduled on the phone from Settings → Reminders. Tap
+  **Allow notifications** there once; on Android 13+ the system asks for permission.
 - A real app icon, splash screen and store-ready project.
 
 The web app is copied into `www/` by `node build-www.js` on every sync, so the native apps
